@@ -1,4 +1,5 @@
 pandas
+pennylane
 scipy<1.14.0
 networkx
 matplotlib
