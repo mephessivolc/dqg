@@ -5,6 +5,7 @@ networkx
 matplotlib
 strawberryfields
 numpy
+h5py
 seaborn
 torch
 torchvision

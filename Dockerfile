@@ -22,5 +22,5 @@ COPY requirements.txt /tmp/requirements.txt
 
 # Instalação limpa sem salvar cache do pip no disco
 RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r /tmp/requirements.txt && \
+    pip install --no-cache-dir --upgrade -r /tmp/requirements.txt && \
     rm /tmp/requirements.txt
